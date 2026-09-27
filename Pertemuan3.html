@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 3</title>
+</head>
+<body>
+    <hl>Pertemuan3</hl>
+    <p>Ini adalah konten untuk Pertemuan 3</p>
+    <a href="perrtemuan2.html">Kembali ke Pertemuan 2</a>
+    <br>
+    <hr>
+    <h1>MATERI FROM INPUT</h1>
+    <header>
+        <h1>Website Saya</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+    </nav>
+    <Section>
+        <h2>Konten</h2>
+        <p>Ini adalah bagian konten halaman</p>
+    </Section>
+    <article>
+        <h2>Artikel</h2>
+        <p>Ini adalah sebuah artikel informasi</p>
+    </article>
+    <aside>
+        <p2>Konten Tambahan</p2>
+    </aside>
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+
+    <h2>Tipe Inputan data</h2>
+    <p>Berikut adalah beberapa tipe inputan data yang dapat digunakan dalam HTML:</p>
+    <ul>
+        <li><input type="text" placeholder="Masukkan teks"> - Text Input</li>
+        <li><input type="number" placeholder="Masukkan angka"> - Number Input</li>
+        <li><input type="email" placeholder="Masukkan email"> - Email Input</li>
+        <li><input type="password" placeholder="Masukkan password"> - Password Input</li>
+        <li><input type="date"> - Date Input</li>
+
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="gender" value="male">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="female">
+        <label for="perempuan">Perempuan</label>
+
+        <li><input type="checkbox" placeholder="Centang jika sesuai"> - Checkbox Input</li>
+        <li><input type="file" placeholder="Pilih file"> - File Upload</li>
+        <li><input type="date" placeholder="Masukkan tanggal"> - Date Input</li>
+        <li><input type="time" placeholder="Masukkan waktu"> - Time Input</li>
+        <li><input type="search" placeholder="Masukkan pencarian"> - Search Input</li>
+
+        <p>Selain itu, ada juga beberapa elemen data lainnya yang dapat digunakan:</p>
+        <!-- Tidak terlihat oleh pengguna, tapi terkirim ke server -->
+         <p>Hidden Input</p>
+        <input type="hidden" name="user_id" value="2345">
+        <input type="hidden" name="token" value="ABDEFGHKLMNPRSTWZ">
+    </ul>
+
+<form>
+    <p>Informasi Pribadi</p>
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama"><br><br>
+
+    <label for="Jurusan">Jurusan:</label>
+    <select id="Jurusan">
+        <option value="Kedokteran">Kedokteran</option>
+        <option value="Farmasi">Farmasi</option>
+        <option value="Keperawatan">Keperawatan</option>
+        <option value="Fisika">Fisika</option>
+        <option value="Kimia">Kimia</option>
+        <option value="Biologi">Biologi</option>
+        <option value="Matematika">Matematika</option>
+        <option value="Ilmu Komputer">Ilmu Komputer</option>
+    </select><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
